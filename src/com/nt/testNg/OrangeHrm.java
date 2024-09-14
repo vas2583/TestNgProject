@@ -38,6 +38,7 @@ public class OrangeHrm {
     	boolean bol=logo.isDisplayed();
     	if(bol==true) {
     		System.out.println(" u r navigate to Corrent Appplication");
+    		System.out.println("u r navigate to");
     		Thread.sleep(2000);
     	}
     	else {
