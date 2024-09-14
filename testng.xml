@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Groups">
+  <test thread-count="5" name="Test">
+    <groups>
+      <run>
+        <include name="sanity"></include>
+        <include name="regrssion"></include>
+      </run>
+    </groups>
+    <classes>
+       <class name="com.nt.groups.TestNGGroups"></class>
+       <class name="com.nt.groups.TestNgGrops1"></class>
+       <class name="com.nt.groups.TestNGGroups2"></class> 
+    </classes>
+  </test> 
+</suite> 

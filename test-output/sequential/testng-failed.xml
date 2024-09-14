@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [sequential]">
+  <parameter name="browser" value="edge"/>
+  <test parallel="none" name="chromeTest(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.nt.seqtest.OrangeHrm">
+        <methods>
+          <include name="loginApp"/>
+          <include name="loginApp"/>
+          <include name="closeApp"/>
+          <include name="closeApp"/>
+          <include name="logout"/>
+          <include name="logout"/>
+          <include name="addEmployee"/>
+          <include name="openApplication"/>
+          <include name="openApplication"/>
+          <include name="verifyTittle"/>
+        </methods>
+      </class> <!-- com.nt.seqtest.OrangeHrm -->
+    </classes>
+  </test> <!-- chromeTest(failed) -->
+  <test parallel="none" name="edgeTest(failed)">
+    <parameter name="browser" value="edge"/>
+    <classes>
+      <class name="com.nt.seqtest.OrangeHrm">
+        <methods>
+          <include name="loginApp"/>
+          <include name="loginApp"/>
+          <include name="closeApp"/>
+          <include name="closeApp"/>
+          <include name="logout"/>
+          <include name="logout"/>
+          <include name="addEmployee"/>
+          <include name="openApplication"/>
+          <include name="openApplication"/>
+          <include name="verifyTittle"/>
+        </methods>
+      </class> <!-- com.nt.seqtest.OrangeHrm -->
+    </classes>
+  </test> <!-- edgeTest(failed) -->
+</suite> <!-- Failed suite [sequential] -->

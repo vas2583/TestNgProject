@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="2" passed="0" failed="1" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-06T06:26:00Z" name="Default suite" finished-at="2024-09-06T06:26:58Z" duration-ms="57966">
+    <groups>
+    </groups>
+    <test started-at="2024-09-06T06:26:00Z" name="Default test" finished-at="2024-09-06T06:26:58Z" duration-ms="57966">
+      <class name="com.nt.testNg.OrangeHrm">
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:com.nt.testNg.OrangeHrm@55a147cc]" started-at="2024-09-06T11:56:00Z" name="openApplication" finished-at="2024-09-06T11:56:47Z" duration-ms="46538" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method is-config="true" signature="loginApp()[pri:0, instance:com.nt.testNg.OrangeHrm@55a147cc]" started-at="2024-09-06T11:56:47Z" name="loginApp" finished-at="2024-09-06T11:56:54Z" duration-ms="7234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginApp -->
+        <test-method signature="verifyTittle()[pri:0, instance:com.nt.testNg.OrangeHrm@55a147cc]" started-at="2024-09-06T11:56:54Z" name="verifyTittle" finished-at="2024-09-06T11:56:54Z" duration-ms="43" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+null
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:37)
+	at com.nt.testNg.OrangeHrm.verifyTittle(OrangeHrm.java:64)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTittle -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.nt.testNg.OrangeHrm@55a147cc]" started-at="2024-09-06T11:56:54Z" name="logout" finished-at="2024-09-06T11:56:58Z" duration-ms="3854" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method signature="addEmployee()[pri:0, instance:com.nt.testNg.OrangeHrm@55a147cc]" started-at="2024-09-06T11:56:58Z" name="addEmployee" finished-at="2024-09-06T11:56:58Z" depends-on-methods="com.nt.testNg.OrangeHrm.verifyTittle" duration-ms="1" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addEmployee -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:com.nt.testNg.OrangeHrm@55a147cc]" started-at="2024-09-06T11:56:58Z" name="closeApp" finished-at="2024-09-06T11:56:58Z" duration-ms="269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- com.nt.testNg.OrangeHrm -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

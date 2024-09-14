@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Default suite]">
+  <test parallel="none" name="Default test(failed)">
+    <classes>
+      <class name="com.nt.testNg.OrangeHrm">
+        <methods>
+          <include name="loginApp"/>
+          <include name="closeApp"/>
+          <include name="addEmployee"/>
+          <include name="openApplication"/>
+          <include name="logout"/>
+          <include name="verifyTittle"/>
+        </methods>
+      </class> <!-- com.nt.testNg.OrangeHrm -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
